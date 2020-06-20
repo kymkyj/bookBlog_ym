@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>로그인페이</title>
+    <title>로그인페이지</title>
 </head>
 <body>
 <h2>111</h2>
