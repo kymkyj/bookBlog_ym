@@ -26,8 +26,7 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-<!--    <mybatis:scan base-package="com.kym.mapper"/>-->
-    <mybatis-spring:scan base-package="com.kym.mapper"/>
-    <context:component-scan base-package="com.kym.service"/>
+    <mybatis-spring:scan base-package="com.bookBlog.mapper"/>
+    <context:component-scan base-package="com.bookBlog.service"/>
 
 </beans>
