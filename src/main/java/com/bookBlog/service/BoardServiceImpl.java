@@ -14,7 +14,6 @@ public class BoardServiceImpl implements BoardService {
     private BoardMapper boardMapper;
 
     public List<BoardVO> selectList(){
-        System.out.println("222");
         return boardMapper.getList();
     }
 }

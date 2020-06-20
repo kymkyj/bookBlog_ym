@@ -17,9 +17,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String Home(Model model){
-        System.out.println("1111");
         List<BoardVO> selectList = boardService.selectList();
-        System.out.println("selectList :"+selectList);
         model.addAttribute("selectList", selectList);
 
         return "login";
